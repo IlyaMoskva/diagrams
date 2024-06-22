@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T11:44:35.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="lSSS-jCItLcKDCG7znHF" version="24.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-22T11:46:04.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="4iG-MeAh6AhE1XA4jZgq" version="24.5.1" type="github" pages="2">
   <diagram name="Level 1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,6 +139,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LUFDokdP35_pGdYFVlhy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CzgVNLoi1EqrxY_alJzA-1" target="LUFDokdP35_pGdYFVlhy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFDokdP35_pGdYFVlhy-3" value="HTTPS / JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LUFDokdP35_pGdYFVlhy-2">
+          <mxGeometry x="0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CzgVNLoi1EqrxY_alJzA-1" value="Frontend: React, Redux, Typescript" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="500" height="210" as="geometry" />
         </mxCell>
@@ -159,6 +167,9 @@
         </mxCell>
         <mxCell id="CzgVNLoi1EqrxY_alJzA-10" value="User Profile Component" style="whiteSpace=wrap;html=1;" vertex="1" parent="CzgVNLoi1EqrxY_alJzA-1">
           <mxGeometry x="330" y="120" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LUFDokdP35_pGdYFVlhy-1" value="API Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="271" y="310" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
