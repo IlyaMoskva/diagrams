@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T11:46:04.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="4iG-MeAh6AhE1XA4jZgq" version="24.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-22T11:48:05.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="I3sb5P7T6_s1H6fB3sjF" version="24.5.1" type="github" pages="2">
   <diagram name="Level 1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="LUFDokdP35_pGdYFVlhy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CzgVNLoi1EqrxY_alJzA-1" target="LUFDokdP35_pGdYFVlhy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LUFDokdP35_pGdYFVlhy-3" value="HTTPS / JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LUFDokdP35_pGdYFVlhy-2">
+        <mxCell id="LUFDokdP35_pGdYFVlhy-3" value="HTTPS / JSON: Axios / Fetch" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LUFDokdP35_pGdYFVlhy-2">
           <mxGeometry x="0.1" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
