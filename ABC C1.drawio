@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T10:09:55.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="Tjy7jhhLoMkNUxSWrVX2" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T10:41:50.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="upkdz1x-9wMzEfSqCRzC" version="24.5.1" type="github">
   <diagram name="Page-1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
             <mxPoint x="414.0999999999999" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2B0lfYPZLkByUdDWmVQW-4" value="HTTPS/JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2B0lfYPZLkByUdDWmVQW-3">
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-4" value="API Gateway" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2B0lfYPZLkByUdDWmVQW-3">
           <mxGeometry x="0.0149" y="-4" relative="1" as="geometry">
             <mxPoint x="4" y="-7" as="offset" />
           </mxGeometry>
@@ -21,12 +21,15 @@
             <mxPoint x="318.43" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2B0lfYPZLkByUdDWmVQW-20" value="HTTPS/JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2B0lfYPZLkByUdDWmVQW-6">
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-20" value="Load Balancer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2B0lfYPZLkByUdDWmVQW-6">
           <mxGeometry x="0.3691" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2B0lfYPZLkByUdDWmVQW-5" value="Application" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2B0lfYPZLkByUdDWmVQW-5" target="2B0lfYPZLkByUdDWmVQW-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-5" value="E-Commerce Platform" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="90" y="350" width="670" height="420" as="geometry" />
         </mxCell>
         <mxCell id="2B0lfYPZLkByUdDWmVQW-55" value="" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="2B0lfYPZLkByUdDWmVQW-5">
@@ -106,6 +109,27 @@
         </mxCell>
         <mxCell id="2B0lfYPZLkByUdDWmVQW-40" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.load_balancer_generic;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="395.25" y="260" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2B0lfYPZLkByUdDWmVQW-62" target="2B0lfYPZLkByUdDWmVQW-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-62" value="Users / Admins" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" vertex="1" parent="1">
+          <mxGeometry x="230" y="144" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-64" value="External Systems" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="90" y="800" width="670" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-65" value="Payment Gateway" style="whiteSpace=wrap;html=1;" vertex="1" parent="2B0lfYPZLkByUdDWmVQW-64">
+          <mxGeometry x="28.870000000000005" y="40" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-66" value="Notification System" style="whiteSpace=wrap;html=1;" vertex="1" parent="2B0lfYPZLkByUdDWmVQW-64">
+          <mxGeometry x="187.75" y="40" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-67" value="Monitoring Tool" style="whiteSpace=wrap;html=1;" vertex="1" parent="2B0lfYPZLkByUdDWmVQW-64">
+          <mxGeometry x="350" y="40" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2B0lfYPZLkByUdDWmVQW-68" value="3rd party services" style="whiteSpace=wrap;html=1;" vertex="1" parent="2B0lfYPZLkByUdDWmVQW-64">
+          <mxGeometry x="510" y="40" width="142.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
