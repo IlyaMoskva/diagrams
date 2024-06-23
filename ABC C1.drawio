@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T13:11:53.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="RUan4bgLjzeHjhseHKFv" version="24.5.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-23T13:18:25.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="EVJCXMcJvAzEjYnf6F9L" version="24.5.1" type="github" pages="9">
   <diagram name="Level 1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,6 +495,23 @@
           <mxGeometry x="-0.0804" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Recommendation" id="QsKhpl5jKHrB6e9sei2W">
+    <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="KEX866IHJZ97btVB_1hs-0" />
+        <mxCell id="KEX866IHJZ97btVB_1hs-1" parent="KEX866IHJZ97btVB_1hs-0" />
+        <mxCell id="KEX866IHJZ97btVB_1hs-2" value="Recommendation Service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="KEX866IHJZ97btVB_1hs-1">
+          <mxGeometry x="40" y="40" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KEX866IHJZ97btVB_1hs-5" value="&lt;div&gt;API Controller&lt;/div&gt;&lt;div&gt;REST API&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEX866IHJZ97btVB_1hs-2">
+          <mxGeometry x="18.88" y="40" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEX866IHJZ97btVB_1hs-6" value="Recommendation Engine&lt;div&gt;Python, Tensorflow&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEX866IHJZ97btVB_1hs-2">
+          <mxGeometry x="18.879999999999995" y="120" width="142.25" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
