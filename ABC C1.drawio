@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T14:44:28.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="SWJOW3z3kafYxYx_VrQD" version="24.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-06-23T14:48:28.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="fh8RkxvUyENWwSLpL_Vf" version="24.5.1" type="github" pages="11">
   <diagram name="Level 1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -587,26 +587,6 @@
         </mxCell>
         <mxCell id="xul4diwOXsepb-UQl8l6-15" value="Kafka" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.queue;" vertex="1" parent="xul4diwOXsepb-UQl8l6-1">
           <mxGeometry x="312.24" y="150" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-3" value="&lt;div&gt;SMS Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xul4diwOXsepb-UQl8l6-1">
-          <mxGeometry x="281.13" y="240" width="142.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xul4diwOXsepb-UQl8l6-1" source="08jeXbI9fhTPnIJcpV7o-0" target="08jeXbI9fhTPnIJcpV7o-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-5" value="&lt;div&gt;Email Service&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xul4diwOXsepb-UQl8l6-1">
-          <mxGeometry x="281.12" y="320" width="142.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xul4diwOXsepb-UQl8l6-1" source="08jeXbI9fhTPnIJcpV7o-1" target="08jeXbI9fhTPnIJcpV7o-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-7" value="&lt;div&gt;Push Service&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="xul4diwOXsepb-UQl8l6-1">
-          <mxGeometry x="281.12" y="400" width="142.25" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="08jeXbI9fhTPnIJcpV7o-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="xul4diwOXsepb-UQl8l6-1" target="08jeXbI9fhTPnIJcpV7o-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="201" y="430" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="xul4diwOXsepb-UQl8l6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;endArrow=none;endFill=0;" edge="1" parent="xul4diwOXsepb-UQl8l6-1" source="xul4diwOXsepb-UQl8l6-11" target="xul4diwOXsepb-UQl8l6-15">
           <mxGeometry relative="1" as="geometry">
