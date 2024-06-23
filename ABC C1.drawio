@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T14:55:57.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="PAueNYw7JCyg-DMAXf-d" version="24.5.1" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-06-23T15:09:44.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="Wz8CdTIZnExddOVHlmOv" version="24.5.1" type="github" pages="11">
   <diagram name="Level 1" id="xx8izs_Su21Y6AEkTrUi">
     <mxGraphModel dx="1380" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -540,7 +540,7 @@
         <mxCell id="g87cfoVVRnxEq1nHHQ52-0" />
         <mxCell id="g87cfoVVRnxEq1nHHQ52-1" parent="g87cfoVVRnxEq1nHHQ52-0" />
         <mxCell id="g87cfoVVRnxEq1nHHQ52-2" value="Inventory Service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-1">
-          <mxGeometry x="40" y="40" width="180" height="200" as="geometry" />
+          <mxGeometry x="40" y="40" width="180" height="280" as="geometry" />
         </mxCell>
         <mxCell id="g87cfoVVRnxEq1nHHQ52-5" value="&lt;div&gt;API Controller&lt;/div&gt;&lt;div&gt;REST API&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-2">
           <mxGeometry x="20" y="40" width="142.25" height="60" as="geometry" />
@@ -548,10 +548,24 @@
         <mxCell id="g87cfoVVRnxEq1nHHQ52-6" value="Inventory Manager&amp;nbsp;&lt;div&gt;Interacts with DB&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-2">
           <mxGeometry x="19.999999999999996" y="120" width="142.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g87cfoVVRnxEq1nHHQ52-7" value="MongoDB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-1">
-          <mxGeometry x="280" y="160" width="80" height="60" as="geometry" />
+        <mxCell id="BjCcXvKOzJw3y4r99Dor-0" value="Order Client" style="whiteSpace=wrap;html=1;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-2">
+          <mxGeometry x="20" y="200" width="142.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g87cfoVVRnxEq1nHHQ52-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="g87cfoVVRnxEq1nHHQ52-1" source="g87cfoVVRnxEq1nHHQ52-6" target="g87cfoVVRnxEq1nHHQ52-7">
+        <mxCell id="BjCcXvKOzJw3y4r99Dor-1" value="Order service" style="whiteSpace=wrap;html=1;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-2">
+          <mxGeometry x="250" y="200" width="133.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BjCcXvKOzJw3y4r99Dor-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="g87cfoVVRnxEq1nHHQ52-2" source="BjCcXvKOzJw3y4r99Dor-0" target="BjCcXvKOzJw3y4r99Dor-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BjCcXvKOzJw3y4r99Dor-3" value="HTTPS/JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BjCcXvKOzJw3y4r99Dor-2">
+          <mxGeometry x="-0.053" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g87cfoVVRnxEq1nHHQ52-7" value="MongoDB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="g87cfoVVRnxEq1nHHQ52-2">
+          <mxGeometry x="276.68" y="120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g87cfoVVRnxEq1nHHQ52-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="g87cfoVVRnxEq1nHHQ52-2" source="g87cfoVVRnxEq1nHHQ52-6" target="g87cfoVVRnxEq1nHHQ52-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g87cfoVVRnxEq1nHHQ52-9" value="BSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g87cfoVVRnxEq1nHHQ52-8">
@@ -624,7 +638,7 @@
         <mxCell id="4_tGuJg-KGuNWRUxCVT_-0" />
         <mxCell id="4_tGuJg-KGuNWRUxCVT_-1" parent="4_tGuJg-KGuNWRUxCVT_-0" />
         <mxCell id="4_tGuJg-KGuNWRUxCVT_-2" value="Payment Service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-1">
-          <mxGeometry x="40" y="40" width="180" height="200" as="geometry" />
+          <mxGeometry x="40" y="40" width="180" height="360" as="geometry" />
         </mxCell>
         <mxCell id="4_tGuJg-KGuNWRUxCVT_-5" value="&lt;div&gt;Payment Controller&lt;/div&gt;&lt;div&gt;REST API&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
           <mxGeometry x="20" y="40" width="142.25" height="60" as="geometry" />
@@ -632,8 +646,34 @@
         <mxCell id="4_tGuJg-KGuNWRUxCVT_-6" value="Payment Processor" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
           <mxGeometry x="18.869999999999997" y="120" width="142.25" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xaFWa1QdHEXIdh3BZoLI-0" value="Transaction repository" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
+          <mxGeometry x="18.870000000000005" y="200" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaFWa1QdHEXIdh3BZoLI-1" value="Logger&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
+          <mxGeometry x="250" y="200" width="132.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaFWa1QdHEXIdh3BZoLI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4_tGuJg-KGuNWRUxCVT_-2" source="xaFWa1QdHEXIdh3BZoLI-0" target="xaFWa1QdHEXIdh3BZoLI-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159.9999999999999" y="230" as="sourcePoint" />
+            <mxPoint x="288.88" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EpzTZpuPS4A9p0wnfXKm-0" value="Order Client" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
+          <mxGeometry x="20" y="280" width="142.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpzTZpuPS4A9p0wnfXKm-1" value="Order service" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-2">
+          <mxGeometry x="250" y="280" width="133.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpzTZpuPS4A9p0wnfXKm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4_tGuJg-KGuNWRUxCVT_-2" source="EpzTZpuPS4A9p0wnfXKm-0" target="EpzTZpuPS4A9p0wnfXKm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EpzTZpuPS4A9p0wnfXKm-3" value="HTTPS/JSON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EpzTZpuPS4A9p0wnfXKm-2">
+          <mxGeometry x="-0.053" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yFtpCjvw2mkUVVppMb3v-0" value="Payment Gateway" style="whiteSpace=wrap;html=1;" vertex="1" parent="4_tGuJg-KGuNWRUxCVT_-1">
-          <mxGeometry x="280" y="160" width="142.25" height="60" as="geometry" />
+          <mxGeometry x="290" y="160" width="132.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yFtpCjvw2mkUVVppMb3v-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4_tGuJg-KGuNWRUxCVT_-1" source="4_tGuJg-KGuNWRUxCVT_-6" target="yFtpCjvw2mkUVVppMb3v-0">
           <mxGeometry relative="1" as="geometry">
